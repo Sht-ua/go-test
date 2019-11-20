@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Print("Введи градусы Фаренгейта что бы перевести в градусы Цельсия: ")
+    var input float64
+    fmt.Scanf("%f", &input)
+ 	 
+    output := (input*9/5)+32
+
+    fmt.Println(output)    
+}
